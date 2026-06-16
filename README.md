@@ -1,16 +1,32 @@
-## Hi there 👋
+# Mary Grace Escolar
 
-<!--
-**marygraceescolar/marygraceescolar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Information Systems Graduate | Virtual Assistant | Graphic Designer
 
-Here are some ideas to get you started:
+## About Me
+Passionate about creating digital solutions through technology, design, and innovation.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Portfolio Sections
+
+📁 Projects
+- Laboratory Information System
+- ShineConnect MIS
+- BUGSAI Integrated System
+- Portfolio Website
+
+🏆 Achievements
+- Certifications
+- Awards
+- Seminars & Workshops
+
+💼 Experience
+- Virtual Assistant
+- Graphic Designer
+- Social Media Manager
+- OJT at BUGSAI TBI
+
+## Skills
+HTML • CSS • JavaScript • PHP • MySQL
+Canva • Figma • Photoshop • CapCut
+
+## Contact
+📧 marygraceescolar@gmail.com
