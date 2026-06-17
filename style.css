@@ -175,9 +175,6 @@ img {
   font-weight: 900;
   letter-spacing: 8px;
   margin-bottom: 30px;
-  background: #111;
-  display: inline-block;
-  padding: 10px 25px;
 }
 
 .about-subtitle {
@@ -501,27 +498,25 @@ img {
 .book-2 {
   width: 82px;
   height: 470px;
-  margin-bottom: 30px;
 }
 
 .book-3 {
   width: 72px;
   height: 420px;
-  margin-bottom: 8px;
 }
 
 .book-4 {
   width: 118px;
-  height: 350px;
+  height: 450px;
 }
 
 .book-5 {
-  width: 120px;
-  height: 350px;
+  width: 150px;
+  height: 400px;
 }
 
 .book-6 {
-  width: 118px;
+  width: 108px;
   height: 350px;
 }
 
