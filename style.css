@@ -712,7 +712,7 @@ img {
 
 @media (max-width: 600px) {
   .hero-section {
-    min-height: 680px;
+    min-height: 500px;
   }
 
   .hero-image-box {
