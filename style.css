@@ -81,8 +81,8 @@ img {
    HERO SECTION - FIXED
 ========================= */
 .hero-section {
-  height: 115vh;
-  min-height: 950px;
+  height: 100vh;
+  min-height: 600px;
   position: relative;
   background: #f4f3ef;
   overflow: hidden;
