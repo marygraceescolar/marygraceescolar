@@ -132,8 +132,8 @@ img {
 .hero-image-box {
   position: absolute;
   left: 50%;
-  bottom: -8%;
-  height: 155%;
+  bottom: -5%;
+  height: 80%;
   transform: translateX(-50%);
   z-index: 5;
   animation: imageEnter 1.2s ease forwards;
