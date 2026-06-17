@@ -132,10 +132,9 @@ img {
 .hero-image-box {
   position: absolute;
   left: 50%;
-  bottom: 6%;
+  bottom: -4%;
   transform: translateX(-50%);
-  height: 75vh;
-  max-height: 780px;
+  height: 95vh;
   z-index: 6;
 }
 
