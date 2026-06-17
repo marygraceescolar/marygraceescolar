@@ -106,8 +106,8 @@ img {
 
 .hero-name-left,
 .hero-name-right {
-  font-size: clamp(120px, 19vw, 330px);
-  line-height: 0.75;
+  font-size: clamp(80px, 19vw, 330px);
+  line-height: 0.95;
   font-weight: 900;
   letter-spacing: -18px;
   color: #7c7773;
@@ -118,9 +118,9 @@ img {
 }
 
 .hero-role-left,
-.hero-role-right {
-  font-size: clamp(32px, 3vw, 58px);
-  line-height: 0.30;
+.hero-role-right {  
+   font-size: clamp(80px, 19vw, 330px);
+  line-height: 0.05;
   font-weight: 900;
   letter-spacing: -4px;
   color: #191919;
