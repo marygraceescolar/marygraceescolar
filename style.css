@@ -134,8 +134,8 @@ img {
   left: 50%;
   bottom: 6%;
   transform: translateX(-50%);
-  height: 66vh;
-  max-height: 650px;
+  height: 75vh;
+  max-height: 780px;
   z-index: 6;
 }
 
