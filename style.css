@@ -106,7 +106,7 @@ img {
 
 .hero-name-left,
 .hero-name-right {
-  font-size: clamp(150px, 24vw, 430px);
+  font-size: clamp(120px, 19vw, 330px);
   line-height: 0.75;
   font-weight: 900;
   letter-spacing: -18px;
@@ -120,6 +120,7 @@ img {
 .hero-role-left,
 .hero-role-right {
   font-size: clamp(32px, 3vw, 58px);
+  line-height: 0.30;
   font-weight: 900;
   letter-spacing: -4px;
   color: #191919;
