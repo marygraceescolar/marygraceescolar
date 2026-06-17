@@ -91,50 +91,51 @@ img {
 
 .hero-left-group {
   position: absolute;
-  left: 2%;
-  top: 32%;
+  left: 3%;
+  top: 36%;
   z-index: 2;
 }
 
 .hero-right-group {
   position: absolute;
-  right: 2%;
-  top: 38%;
+  right: 3%;
+  top: 43%;
   text-align: right;
   z-index: 2;
 }
 
-.hero-role-left,
-.hero-role-right {
-  font-size: clamp(32px, 3vw, 54px);
-  font-weight: 900;
-  letter-spacing: -3px;
-  color: #222;
-}
-
 .hero-name-left,
 .hero-name-right {
-  font-size: clamp(115px, 15vw, 245px);
+  font-size: clamp(95px, 13vw, 220px);
   line-height: 0.75;
   font-weight: 900;
-  letter-spacing: -12px;
+  letter-spacing: -10px;
   color: #77736f;
   margin-top: 0;
-  position: relative;
-  z-index: 8;
 }
 
 .hero-name-right {
   color: #aaa6a2;
 }
 
+.hero-role-left,
+.hero-role-right {
+  font-size: clamp(28px, 2.4vw, 46px);
+  font-weight: 900;
+  letter-spacing: -3px;
+  color: #191919;
+  margin-top: 0;
+  position: relative;
+  z-index: 8;
+}
+
 .hero-image-box {
   position: absolute;
   left: 50%;
-  bottom: 8%;
+  bottom: 6%;
   transform: translateX(-50%);
-  height: 68vh;
-  max-height: 680px;
+  height: 66vh;
+  max-height: 650px;
   z-index: 6;
 }
 
