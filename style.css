@@ -86,53 +86,56 @@ img {
   position: relative;
   background: #f4f3ef;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 80px;
+  padding-top: 90px;
 }
 
 .hero-left-group {
   position: absolute;
-  left: 7%;
-  top: 28%;
-  z-index: 6;
+  left: 2%;
+  top: 32%;
+  z-index: 2;
 }
 
 .hero-right-group {
   position: absolute;
-  right: 7%;
-  top: 28%;
+  right: 2%;
+  top: 38%;
   text-align: right;
-  z-index: 6;
+  z-index: 2;
 }
 
 .hero-name-left,
 .hero-name-right {
-  font-size: clamp(80px, 10vw, 170px);
-  line-height: 0.9;
+  font-size: clamp(150px, 24vw, 430px);
+  line-height: 0.75;
   font-weight: 900;
-  letter-spacing: -6px;
-  color: #222;
+  letter-spacing: -18px;
+  color: #7c7773;
+}
+
+.hero-name-right {
+  color: #aaa6a2;
 }
 
 .hero-role-left,
 .hero-role-right {
-  font-size: clamp(26px, 2.4vw, 46px);
-  font-weight: 500;
-  letter-spacing: -2px;
-  color: #222;
-  margin-top: 330px;
+  font-size: clamp(32px, 3vw, 58px);
+  font-weight: 900;
+  letter-spacing: -4px;
+  color: #191919;
+  margin-top: 0;
+  position: relative;
+  z-index: 8;
 }
 
 .hero-image-box {
   position: absolute;
   left: 50%;
-  bottom: -10px;
+  bottom: 8%;
   transform: translateX(-50%);
-  height: 82vh;
-  max-height: 760px;
-  z-index: 5;
+  height: 68vh;
+  max-height: 680px;
+  z-index: 6;
 }
 
 .hero-image {
