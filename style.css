@@ -132,7 +132,7 @@ img {
 .hero-image-box {
   position: absolute;
   left: 50%;
-  bottom: 8%;
+  bottom: -2%;
   height: 95%;
   transform: translateX(-50%);
   z-index: 6;
@@ -140,7 +140,7 @@ img {
 }
 
 .hero-image {
-  height: 100%;
+  height: 110%;
   width: auto;
   object-fit: contain;
 }
