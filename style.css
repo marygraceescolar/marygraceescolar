@@ -167,8 +167,8 @@ img {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   align-items: center;
-  padding: 55px 8%;
-  gap: 60px;
+  padding: 75px 8%;
+  gap: 20px;
 }
 
 .section-title {
