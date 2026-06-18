@@ -63,3 +63,54 @@ function revealOnScroll() {
 
 window.addEventListener("scroll", revealOnScroll);
 window.addEventListener("load", revealOnScroll);
+
+
+
+const galleryImages = document.querySelectorAll(".insta-gallery img");
+const modal = document.getElementById("igModal");
+const modalImg = document.getElementById("igModalImg");
+const title = document.getElementById("igTitle");
+const caption = document.getElementById("igCaption");
+const tags = document.getElementById("igTags");
+
+const closeBtn = document.querySelector(".ig-close");
+const prevBtn = document.querySelector(".ig-prev");
+const nextBtn = document.querySelector(".ig-next");
+
+let currentIndex = 0;
+
+function openModal(index) {
+  currentIndex = index;
+  const img = galleryImages[currentIndex];
+
+  modalImg.src = img.src;
+  title.textContent = img.dataset.title;
+  caption.textContent = img.dataset.caption;
+  tags.textContent = img.dataset.tags;
+
+  modal.classList.add("active");
+}
+
+galleryImages.forEach((img, index) => {
+  img.addEventListener("click", () => openModal(index));
+});
+
+closeBtn.addEventListener("click", () => {
+  modal.classList.remove("active");
+});
+
+nextBtn.addEventListener("click", () => {
+  currentIndex = (currentIndex + 1) % galleryImages.length;
+  openModal(currentIndex);
+});
+
+prevBtn.addEventListener("click", () => {
+  currentIndex = (currentIndex - 1 + galleryImages.length) % galleryImages.length;
+  openModal(currentIndex);
+});
+
+modal.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    modal.classList.remove("active");
+  }
+});
